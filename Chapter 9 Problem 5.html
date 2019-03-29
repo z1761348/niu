@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Chapter 9 Problem 5</title>
+    <style>body{background-color: lightblue }</style>
+  </head>
+  <body>
+    <h1>Music Survey</h1>
+    <div>
+      <form action="/savefile.php" method="post"> Email:<br>
+        <input name="email" required="required" type="email"> <br>
+        Comments:<br>
+        <input name="comment" max="1600" type="text"> <br>
+        <br>
+        <fieldset> <legend>Select Your Favorite Type of Music:</legend> <input
+
+            name="Pop" value="Pop" type="checkbox"> Pop <br>
+          <input name="Classical" value="Classical" type="checkbox"> Classical <br>
+          <input name="Rock" value="Rock" type="checkbox"> Rock <br>
+          <input name="Folk" value="Folk" type="checkbox"> Folk <br>
+          <input name="Rap" value="Rap" type="checkbox"> Rap <br>
+          <input name="Other" value="Other" type="checkbox"> Other <br>
+        </fieldset>
+        <fieldset> <legend>Select How Often You Purchase Music CDs:</legend> <input
+
+            name="Weekly" value="Weekly" type="radio"> Weekly <br>
+          <input name="a few" value="a few" type="radio"> A few CDs each year <br>
+          <input name="Monthly" value="Monthly" type="radio"> Monthly <br>
+          <input name="Never purchase" value="Never purchase" type="radio">
+          Never purchase <br>
+        </fieldset>
+        <h4>Select the locations you listen to music</h4>
+        <select size="3">
+          <option value="home">At Home</option>
+          <option value="car">In the car</option>
+          <option value="anywhere">Anywhere (MP3 Player)</option>
+          <option value="bar"> At the bar</option>
+        </select>
+        <h4> What role does music play in your life? </h4>
+        <textarea rows="4" cols="50"> </textarea> </form>
+      <br>
+      <br>
+      <input value="Submit" type="submit"> <input value="reset" type="Reset"> </div>
+    <footer><a href="mailto:z1761348@students.niu.edu">Email</a><br> Ryan Walkup</footer>
+    
+  </body>
+</html>
